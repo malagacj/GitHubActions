@@ -6,6 +6,7 @@ on: [push]
 
 jobs:
   SSH-GitHub-Actions:
+    runs-on: ubuntu-latest
       - name: Set up SSH key
         run: |
           env
